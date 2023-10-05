@@ -5,5 +5,7 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
-
+// Test the getComputerChoice function
+const computerChoice = getComputerChoice();
+console.log("Computer's Choice:", computerChoice);
 
