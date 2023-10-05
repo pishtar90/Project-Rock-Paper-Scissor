@@ -26,3 +26,8 @@ function playRound(playerSelection, computerSelection) {
     return `You lose! ${computerSelection} beats ${playerSelection}`;
   }
 }
+
+// Step 3: Test the playRound function with console.log.
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
