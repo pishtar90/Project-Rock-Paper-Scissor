@@ -60,3 +60,6 @@ function game() {
   }
 }
 
+Step 5: Call the game function to start the game.
+  game();
+
