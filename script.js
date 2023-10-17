@@ -5,10 +5,6 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
-// Test the getComputerChoice function
-const computerChoice = getComputerChoice();
-console.log("Computer's Choice:", computerChoice);
-
 // Step 2: Write a function that plays a single round of Rock Paper Scissors.
 function playRound(playerSelection, computerSelection) {
   playerSelection = playerSelection.toLowerCase();
@@ -60,6 +56,5 @@ function game() {
   }
 }
 
-Step 5: Call the game function to start the game.
-  game();
-
+// Step 5: Call the game function to start the game.
+game();
